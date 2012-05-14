@@ -60,6 +60,16 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  			js = d.createElement(s); js.id = id;
+  			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=338782379514695";
+ 			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+			
+		</script>
 	
 	<div id="page-wrap">
 											
@@ -81,7 +91,7 @@
 						<img src="images/tempphoto-2.jpg" alt="temp" />
 						<div class="photo-meta-data">
 							Chicago Bears at Seattle Seahawks<br />
-							<span>Fifth field goal, overtime win for the Seahawks</span>
+							<span><div class="fb-like" data-href="http://mrduke44.github.com/" data-send="true" data-width="100" data-show-faces="false"></div></span>
 						</div>
 					</div>
 				</div>		
